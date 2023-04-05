@@ -228,7 +228,7 @@
     </div>
     <div class="row my-4">
       <div class="col-lg-8 col-md-6 mb-md-0 mb-4">
-        <projects-card />
+        <appointments-card />
       </div>
       <div class="col-lg-4 col-md-6">
         <timeline-list
@@ -284,7 +284,7 @@ import PieChart from "@/examples/Charts/PieChart.vue";
 import GradientLineChart from "@/examples/Charts/GradientLineChart.vue";
 import TimelineList from "./components/TimelineList.vue";
 import TimelineItem from "./components/TimelineItem.vue";
-import ProjectsCard from "./components/ProjectsCard.vue";
+import AppointmentsCard from "./components/AppointmentsCard.vue";
 import US from "../assets/img/icons/flags/US.png";
 import DE from "../assets/img/icons/flags/DE.png";
 import GB from "../assets/img/icons/flags/GB.png";
@@ -340,7 +340,7 @@ export default {
     MiniStatisticsCard,
     PieChart,
     GradientLineChart,
-    ProjectsCard,
+    AppointmentsCard,
     TimelineList,
     TimelineItem,
   },

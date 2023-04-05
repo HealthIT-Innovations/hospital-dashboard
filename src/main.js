@@ -7,6 +7,11 @@ import "./assets/css/nucleo-svg.css";
 import SoftUIDashboard from "./soft-ui-dashboard";
 
 
+// element ui
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+
+
 // Vuetify
 import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
@@ -21,6 +26,7 @@ const vuetify = createVuetify({
 const appInstance = createApp(App);
 appInstance.use(store);
 appInstance.use(router);
+appInstance.use(ElementPlus)
 appInstance.use(SoftUIDashboard);
 appInstance.use(vuetify);
 appInstance.mount("#app");

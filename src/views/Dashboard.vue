@@ -69,11 +69,12 @@
             <div class="row">
               <div class="col-lg-6">
                 <div class="d-flex flex-column h-100">
-                  <p class="mb-1 pt-2 text-bold">Built by developers</p>
                   <h5 class="font-weight-bolder">Medisun Clinic</h5>
-                  <p class="mb-5">
-                    From colors, cards, typography to complex elements, you will
-                    find the full documentation.
+                  <p class="mb-2">
+                     H54P+PW2, Lobamba, Eswatini
+                  </p>
+                  <p class="text-bold">
+                     +268 2416 2800
                   </p>
                   <a
                     class="text-body text-sm font-weight-bold mb-0 icon-move-right mt-auto"
